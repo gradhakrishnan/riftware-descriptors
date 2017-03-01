@@ -77,13 +77,13 @@ resources:
             - git clone https://github.com/RIFTIO/UI
             - cd UI
             - git checkout RIFT.ware-4.3.3.1
-            - make -j4 CONF=CONF_BASIC
+            - make -j4 CONFD=CONFD_BASIC
             - sudo make install CONFD=CONFD_BASIC
             - cd ..
             - git clone https://github.com/mfmarche/SO
             - cd SO
             - git checkout sandvine-fixes
-            - make -j4 CONF=CONF_BASIC
+            - make -j4 CONFD=CONFD_BASIC
             - sudo make install CONFD=CONFD_BASIC
             - cd ..
             - mkdir /var/log/rift
